@@ -29,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
+      data-theme="dark"
       className={`${oswald.variable} ${inter.variable} h-full antialiased dark`}
     >
       <head>

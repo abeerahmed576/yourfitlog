@@ -4,9 +4,9 @@ A modern, responsive workout library and daily workout planning application buil
 
 ## 🔗 Live Project
 
-**Live Demo:** [Add your deployed project URL here]
+**Live Demo:** yourfitlog.netlify.app
 
-**Repository:** [Add your GitHub repository URL here]
+**Repository:** https://github.com/abeerahmed576/yourfitlog
 
 ## 📖 About The Project
 

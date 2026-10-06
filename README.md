@@ -1,10 +1,16 @@
-# 🏋️‍♂️ Fit Log
+# 🏋️‍♂️ Your FitLog
 
 A modern, responsive workout library and daily workout planning application built with **Next.js**. FitLog allows users to explore workouts, view detailed exercise information, build a daily workout plan, save exercises for later, and track completed workouts.
 
+## 🔗 Live Project
+
+**Live Demo:** [Add your deployed project URL here]
+
+**Repository:** [Add your GitHub repository URL here]
+
 ## 📖 About The Project
 
-**FitLog** is a dark-themed workout library designed to make workout planning simple and focused.
+**YourFitLog** is a dark-themed workout library designed to make workout planning simple and focused.
 
 Users can browse a collection of exercises, inspect detailed workout information, add exercises to their daily plan, save workouts for later, and mark planned workouts as completed.
 
@@ -41,7 +47,7 @@ The application is fully responsive and designed to provide a consistent experie
   * Total calories
 * Maximum of five workouts can be added to today's plan.
 * Mark workouts as completed.
-* Remove workouts from the plan. (Finish it first though!)
+* Remove workouts from the plan.
 * View details of any planned workout.
 
 ### 💾 Saved Workouts
@@ -88,3 +94,82 @@ The application is fully responsive and designed to provide a consistent experie
 | **Font Awesome**       | Icons throughout the application            |
 | **React Toastify**     | Toast notifications and user feedback       |
 | **REST API**           | Fetching workout data                       |
+
+## 📂 Main Application Routes
+
+| Route          | Description                        |
+| -------------- | ---------------------------------- |
+| `/`            | Workout library / Home page        |
+| `/workout/:id` | Workout details page               |
+| `/my-plan`     | Today's Plan and Saved workouts    |
+| `/*`           | Custom 404 page for invalid routes |
+
+---
+
+## 🎯 Application Flow
+
+```text
+Home
+ │
+ ├── Browse Workouts
+ │       │
+ │       └── Workout Details
+ │              │
+ │              ├── Add to Today's Plan
+ │              │
+ │              └── Save for Later
+ │
+ └── My Plan
+        │
+        ├── Today's Plan
+        │      ├── View Details
+        │      ├── Mark as Done
+        │      └── Remove
+        │
+        └── Saved
+               └── View Details
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed on your system.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/abeerahmed576/yourfitlog
+
+cd yourfitlog
+
+npm install
+
+npm run dev
+```
+
+Open the application in your browser:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🏗️ Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm start
+```
+
+## 📄 License
+
+This project was created for educational and assignment purposes.
